@@ -1,0 +1,828 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "name": "\u0421\u0442\u0435\u0439\u043a",
+    "description": "\u0442\u043e\u043b\u0441\u0442\u044b\u0439 \u043a\u0443\u0441\u043e\u043a \u043e\u0431\u0436\u0430\u0440\u0435\u043d\u043d\u043e\u0433\u043e \u043c\u044f\u0441\u0430[1]. \u0421\u0442\u0435\u0439\u043a \u0438\u0437 \u043b\u0443\u0447\u0448\u0438\u0445 \u0447\u0430\u0441\u0442\u0435\u0439 \u0433\u043e\u0432\u044f\u0434\u0438\u043d\u044b \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0441\u0442\u043e \u0441\u0442\u0435\u0439\u043a\u043e\u043c (\u0438\u043d\u043e\u0433\u0434\u0430 \u0442\u0430\u043a\u0436\u0435 \u0431\u0438\u0444\u0448\u0442\u0435\u043a\u0441\u043e\u043c (\u0430\u043d\u0433\u043b. beef steak)).",
+    "arrival_date": "2019-04-17T14:10:01Z",
+    "is_deleted": false,
+    "price": "500.00",
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "name": "\u0421\u0443\u043f \u0422\u0438\u0440\u0430\u043c\u0438\u0441\u0443",
+    "description": "\u0422\u0438\u0440\u0430\u043c\u0438\u0441\u0443\u0301 (\u0438\u0442\u0430\u043b. Tiramis\u00f9, \u00ab\u0432\u0437\u0431\u043e\u0434\u0440\u0438 \u043c\u0435\u043d\u044f\u00bb \u043e\u0442 \u0433\u043b. tira \u2014 \u0442\u044f\u043d\u0438, mi \u2014 \u043c\u0435\u043d\u044f, su \u2014 \u0432\u0432\u0435\u0440\u0445) \u2014 \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438\u0439 \u043c\u043d\u043e\u0433\u043e\u0441\u043b\u043e\u0439\u043d\u044b\u0439 \u0434\u0435\u0441\u0435\u0440\u0442, \u0432 \u0441\u043e\u0441\u0442\u0430\u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u0432\u0445\u043e\u0434\u044f\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b: \u0441\u044b\u0440 \u043c\u0430\u0441\u043a\u0430\u0440\u043f\u043e\u043d\u0435, \u043a\u043e\u0444\u0435 (\u043e\u0431\u044b\u0447\u043d\u043e \u044d\u0441\u043f\u0440\u0435\u0441\u0441\u043e), \u043a\u0443\u0440\u0438\u043d\u044b\u0435 \u044f\u0439\u0446\u0430, \u0441\u0430\u0445\u0430\u0440 \u0438 \u043f\u0435\u0447\u0435\u043d\u044c\u0435 \u0441\u0430\u0432\u043e\u044f\u0440\u0434\u0438. \u041a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e, \u0434\u0435\u0441\u0435\u0440\u0442 \u043f\u0440\u0438\u043f\u0443\u0434\u0440\u0438\u0432\u0430\u044e\u0442 \u043a\u0430\u043a\u0430\u043e-\u043f\u043e\u0440\u043e\u0448\u043a\u043e\u043c[1]. \u0412\u043e\u0437\u043c\u043e\u0436\u043d\u0430 \u0432\u0430\u0440\u0438\u0430\u0446\u0438\u044f \u0441 \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435\u043c \u0433\u0440\u0435\u0446\u043a\u043e\u0433\u043e \u043e\u0440\u0435\u0445\u0430.",
+    "arrival_date": null,
+    "is_deleted": false,
+    "price": "300.00",
+    "categories": [
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "name": "\u0427\u0438\u0437\u043a\u0435\u0439\u043a",
+    "description": "\u0425\u043e\u0442\u044f \u0434\u0430\u043d\u043d\u043e\u0435 \u0431\u043b\u044e\u0434\u043e \u0438 \u043d\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u0442\u043e\u0440\u0442\u043e\u043c \u0438\u043b\u0438 \u043f\u0438\u0440\u043e\u0433\u043e\u043c (\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0432 \u0441\u0432\u043e\u0451\u043c \u0441\u043e\u0441\u0442\u0430\u0432\u0435 \u043e\u0431\u044b\u0447\u043d\u043e \u0438\u043c\u0435\u044e\u0442 \u0431\u0438\u0441\u043a\u0432\u0438\u0442), \u0447\u0438\u0437\u043a\u0435\u0439\u043a \u043d\u0435 \u0431\u0438\u0441\u043a\u0432\u0438\u0442\u043d\u044b\u0439 \u0434\u0435\u0441\u0435\u0440\u0442: \u0435\u0433\u043e \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u0447\u0430\u0449\u0435 \u0432\u0441\u0435\u0433\u043e \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u0442\u043e\u043b\u0447\u0451\u043d\u043e\u0435 \u043f\u0435\u0441\u043e\u0447\u043d\u043e\u0435 \u043f\u0435\u0447\u0435\u043d\u044c\u0435. \u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c \u0447\u0438\u0437\u043a\u0435\u0439\u043a\u0430, \u043d\u0430\u0447\u0438\u043d\u043a\u0430 \u2014 \u0441\u043c\u0435\u0441\u044c \u043c\u044f\u0433\u043a\u043e\u0433\u043e \u0441\u044b\u0440\u0430/\u0442\u0432\u043e\u0440\u043e\u0433\u0430, \u0441\u0430\u0445\u0430\u0440\u0430 \u0438 \u0436\u0438\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u043b\u043e\u043a\u0430/\u0441\u043b\u0438\u0432\u043e\u043a. \u0427\u0438\u0437\u043a\u0435\u0439\u043a\u0438 \u0437\u0430\u043f\u0435\u043a\u0430\u044e\u0442 \u0438\u043b\u0438 \u0433\u043e\u0442\u043e\u0432\u044f\u0442 \u043d\u0430 \u0432\u043e\u0434\u044f\u043d\u043e\u0439 \u0431\u0430\u043d\u0435, \u0435\u0441\u043b\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442 \u044f\u0439\u0446\u0430[1][2]. \u0414\u043b\u044f \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0434\u0435\u0441\u0435\u0440\u0442\u0430 \u0431\u0435\u0437 \u0432\u044b\u043f\u0435\u043a\u0430\u043d\u0438\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0436\u0435\u043b\u0430\u0442\u0438\u043d[1][2]. \u041f\u0435\u0440\u0435\u0434 \u043f\u043e\u0434\u0430\u0447\u0435\u0439 \u043d\u0430 \u0441\u0442\u043e\u043b \u0431\u043b\u044e\u0434\u043e \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u0432\u044b\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u0432 \u0445\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a\u0435[1].",
+    "arrival_date": "2019-04-10T14:09:53Z",
+    "is_deleted": false,
+    "price": "230.00",
+    "categories": [
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "name": "\u0412\u0438\u0441\u043a\u0438",
+    "description": "\u0412\u0438\u0301\u0441\u043a\u0438 (\u0430\u043d\u0433\u043b. whisky \u0438\u043b\u0438 whiskey[\u043a\u043e\u043c\u043c. 1][1][2]) \u2014 \u043a\u0440\u0435\u043f\u043a\u0438\u0439 \u0430\u0440\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c\u043d\u044b\u0439 \u043d\u0430\u043f\u0438\u0442\u043e\u043a, \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u043c\u044b\u0439 \u0438\u0437 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u0432\u0438\u0434\u043e\u0432 \u0437\u0435\u0440\u043d\u0430 \u0441 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0432 \u0441\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u044f, \u0431\u0440\u043e\u0436\u0435\u043d\u0438\u044f, \u043f\u0435\u0440\u0435\u0433\u043e\u043d\u043a\u0438 \u0438 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u044b\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0432 \u0434\u0443\u0431\u043e\u0432\u044b\u0445 \u0431\u043e\u0447\u043a\u0430\u0445. \u041f\u0440\u0438 \u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u0438 \u0432\u0438\u0441\u043a\u0438 \u043c\u043e\u0436\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u044f\u0447\u043c\u0435\u043d\u044c, \u0440\u043e\u0436\u044c, \u043f\u0448\u0435\u043d\u0438\u0446\u0430 \u0438\u043b\u0438 \u043a\u0443\u043a\u0443\u0440\u0443\u0437\u0430. \u0412 \u0411\u0440\u0435\u0442\u0430\u043d\u0438 \u0442\u0430\u043a\u0436\u0435 \u0434\u0435\u043b\u0430\u044e\u0442 \u0432\u0438\u0441\u043a\u0438 \u0438\u0437 \u0433\u0440\u0435\u0447\u0438\u0445\u0438. \u0421\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435 \u0441\u043f\u0438\u0440\u0442\u0430 \u2014 \u043e\u0431\u044b\u0447\u043d\u043e 32\u201450 % \u043e\u0431., \u043e\u0434\u043d\u0430\u043a\u043e \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0441\u043e\u0440\u0442\u0430 \u0432\u0438\u0441\u043a\u0438 \u0438\u043c\u0435\u044e\u0442 \u0431\u043e\u0301\u043b\u044c\u0448\u0443\u044e \u043a\u0440\u0435\u043f\u043e\u0441\u0442\u044c (\u0434\u043e 60 % \u043e\u0431.). \u0426\u0432\u0435\u0442 \u043d\u0430\u043f\u0438\u0442\u043a\u0430 \u0432\u0430\u0440\u044c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u043e\u0442 \u0441\u0432\u0435\u0442\u043b\u043e-\u0436\u0451\u043b\u0442\u043e\u0433\u043e \u0434\u043e \u043a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u043e\u0433\u043e, \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435 \u0441\u0430\u0445\u0430\u0440\u0430 \u2014 \u043d\u0443\u043b\u0435\u0432\u043e\u0435 \u0438\u043b\u0438 \u043a\u0440\u0430\u0439\u043d\u0435 \u043d\u0435\u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435. \u0422\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u043c\u0438 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043c\u0438, \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u044f\u0449\u0438\u043c\u0438 \u0432\u0438\u0441\u043a\u0438, \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u0428\u043e\u0442\u043b\u0430\u043d\u0434\u0438\u044f \u0438 \u0418\u0440\u043b\u0430\u043d\u0434\u0438\u044f.",
+    "arrival_date": "2019-04-06T14:09:30Z",
+    "is_deleted": false,
+    "price": "1000.00",
+    "categories": [
+      4
+    ]
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "name": "\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u043e\u043a\u043d\u043e",
+    "description": "\u0412\u044b\u043d\u0435\u0441\u0438\u0442\u0435 \u0444\u043e\u0440\u043c\u0443 \u0432 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442, \u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f (\u0437\u0430\u0434\u0430\u0447\u0443) \u0434\u043b\u044f \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0439\u0442\u0435 \u0447\u0435\u0440\u0435\u0437 props. \u0422.\u043a. props \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u043c\u0435\u043d\u044f\u0442\u044c\u0441\u044f, \u0442\u043e \u043a\u043e\u043f\u0438\u0440\u0443\u0439\u0442\u0435 \u043f\u0435\u0440\u0435\u0434\u0430\u043d\u043d\u0443\u044e \u0437\u0430\u0434\u0430\u0447\u0443 \u0438\u0437 props \u0432 state. \u0414\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0441\u043e\u0437\u0434\u0430\u0439\u0442\u0435 \u0432 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0435 \u0444\u043e\u0440\u043c\u044b \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u043e\u0440, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u0437\u0434\u0430\u0442\u044c state \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0437\u0430\u0434\u0430\u0447\u0438, \u043f\u0435\u0440\u0435\u0434\u0430\u043d\u043d\u043e\u0439 \u0447\u0435\u0440\u0435\u0437 props (\u0435\u0441\u043b\u0438 \u0437\u0430\u0434\u0430\u0447\u0430 \u043f\u0435\u0440\u0435\u0434\u0430\u043d\u0430, \u0442\u043e \u0432 state \u043a\u043e\u043f\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u044d\u0442\u0430 \u0437\u0430\u0434\u0430\u0447\u0430, \u0435\u0441\u043b\u0438 \u043d\u0435\u0442, \u0442\u043e \u0432 state \u043a\u043e\u043f\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u043f\u0443\u0441\u0442\u0430\u044f \u0437\u0430\u0434\u0430\u0447\u0430).",
+    "arrival_date": "2019-04-06T06:00:00Z",
+    "is_deleted": false,
+    "price": "4.00",
+    "categories": []
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 1,
+  "fields": {
+    "name": "\u0412\u0442\u043e\u0440\u043e\u0435 \u0431\u043b\u044e\u0434\u043e",
+    "description": "\u0413\u043b\u0430\u0432\u043d\u043e\u0435 \u0431\u043b\u044e\u0434\u043e \u2014 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u0431\u043b\u044e\u0434\u043e, \u043f\u043e\u0434\u0430\u0432\u0430\u0435\u043c\u043e\u0435 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u0438\u0435\u043c\u0430 \u043f\u0438\u0449\u0438, \u0441\u043e\u0441\u0442\u043e\u044f\u0449\u0435\u043c \u0438\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0431\u043b\u044e\u0434. \u041a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e, \u043e\u043d\u043e \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u0437\u0430 \u0430\u043d\u0442\u0440\u0435. \u0413\u043b\u0430\u0432\u043d\u043e\u0435 \u0431\u043b\u044e\u0434\u043e \u043e\u0431\u044b\u0447\u043d\u043e \u0441\u0430\u043c\u043e\u0435 \u0442\u044f\u0436\u0435\u043b\u043e\u0435, \u0433\u043e\u0440\u044f\u0447\u0435\u0435 \u0438 \u0441\u0430\u043c\u043e\u0435 \u0441\u043b\u043e\u0436\u043d\u043e\u0435 \u0431\u043b\u044e\u0434\u043e \u0432 \u043c\u0435\u043d\u044e."
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 2,
+  "fields": {
+    "name": "\u041f\u0435\u0440\u0432\u043e\u0435 \u0431\u043b\u044e\u0434\u043e",
+    "description": "\u041f\u0435\u0440\u0432\u044b\u0435 \u0431\u043b\u044e\u0434\u0430. \u041e\u0442\u043b\u0438\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e \u0440\u0443\u0441\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0431\u043e\u0433\u0430\u0442\u044b\u0439 \u0432\u044b\u0431\u043e\u0440 \u0440\u0435\u0446\u0435\u043f\u0442\u043e\u0432 \u043f\u0435\u0440\u0432\u044b\u0445 \u0431\u043b\u044e\u0434. \u0421 \u0442\u043e\u0447\u043a\u0438 \u0437\u0440\u0435\u043d\u0438\u044f \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f ..."
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 3,
+  "fields": {
+    "name": "\u0414\u0435\u0441\u0435\u0440\u0442\u044b",
+    "description": "\u0414\u0435\u0441\u0435\u0301\u0440\u0442 \u2014 \u0437\u0430\u0432\u0435\u0440\u0448\u0430\u044e\u0449\u0435\u0435 \u0431\u043b\u044e\u0434\u043e \u0441\u0442\u043e\u043b\u0430, \u043f\u0440\u0435\u0434\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u043e\u0435 \u0434\u043b\u044f \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u044f\u0442\u043d\u044b\u0445 \u0432\u043a\u0443\u0441\u043e\u0432\u044b\u0445 \u043e\u0449\u0443\u0449\u0435\u043d\u0438\u0439 \u0432 \u043a\u043e\u043d\u0446\u0435 \u043e\u0431\u0435\u0434\u0430 \u0438\u043b\u0438 \u0443\u0436\u0438\u043d\u0430, \u043e\u0431\u044b\u0447\u043d\u043e \u2014 \u0441\u043b\u0430\u0434\u043a\u0438\u0435 \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u0435\u0441\u044b. \u0414\u0435\u0441\u0435\u0440\u0442\u044b \u043f\u043e\u0434\u0430\u044e\u0442\u0441\u044f \u043e\u0431\u044b\u0447\u043d\u043e \u0432 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0435\u0441\u0435\u0440\u0442\u043d\u044b\u0445 \u0442\u0430\u0440\u0435\u043b\u043a\u0430\u0445. \u0415\u0434\u044f\u0442, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e, \u0434\u0435\u0441\u0435\u0440\u0442\u043d\u043e\u0439 \u043b\u043e\u0436\u043a\u043e\u0439 \u2014 \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u043e\u0439 \u043f\u043e \u0440\u0430\u0437\u043c\u0435\u0440\u0443 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u043e\u043b\u043e\u0432\u043e\u0439 \u0438 \u0447\u0430\u0439\u043d\u043e\u0439."
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 4,
+  "fields": {
+    "name": "\u0412\u044b\u043f\u0438\u0432\u043a\u0430",
+    "description": "\u0410\u043b\u043a\u043e\u0433\u043e\u0301\u043b\u044c\u043d\u044b\u0435 \u043d\u0430\u043f\u0438\u0301\u0442\u043a\u0438 (\u0442\u0430\u043a\u0436\u0435 \u0441\u043f\u0438\u0440\u0442\u043d\u044b\u0435 \u043d\u0430\u043f\u0438\u0442\u043a\u0438) \u2014 \u043d\u0430\u043f\u0438\u0442\u043a\u0438, \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u0435 \u044d\u0442\u0430\u043d\u043e\u043b ...... \u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438"
+  }
+},
+{
+  "model": "webapp.product_photo",
+  "pk": 1,
+  "fields": {
+    "product": 4,
+    "images": "images/1517827134_izvestnye-marki-viski-2.jpg"
+  }
+},
+{
+  "model": "webapp.product_photo",
+  "pk": 2,
+  "fields": {
+    "product": 4,
+    "images": "images/image11.jpeg"
+  }
+},
+{
+  "model": "webapp.product_photo",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "images": "images/steik-na-mangale_1400745830_1_max.JPG"
+  }
+},
+{
+  "model": "webapp.product_photo",
+  "pk": 4,
+  "fields": {
+    "product": 1,
+    "images": "images/20-laJfxakov-dlya-prigotovleniya-deJstvitelno-bozhestvennogo-steJka_1526682003-1140x570.jpg"
+  }
+},
+{
+  "model": "webapp.product_photo",
+  "pk": 5,
+  "fields": {
+    "product": 3,
+    "images": "images/chizkejk-klassicheskij-recept.jpg"
+  }
+},
+{
+  "model": "webapp.product_photo",
+  "pk": 6,
+  "fields": {
+    "product": 3,
+    "images": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add movie",
+    "content_type": [
+      "webapp",
+      "movie"
+    ],
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change movie",
+    "content_type": [
+      "webapp",
+      "movie"
+    ],
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete movie",
+    "content_type": [
+      "webapp",
+      "movie"
+    ],
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view movie",
+    "content_type": [
+      "webapp",
+      "movie"
+    ],
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": [
+      "authtoken",
+      "token"
+    ],
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add registration token",
+    "content_type": [
+      "webapp",
+      "registrationtoken"
+    ],
+    "codename": "add_registrationtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change registration token",
+    "content_type": [
+      "webapp",
+      "registrationtoken"
+    ],
+    "codename": "change_registrationtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete registration token",
+    "content_type": [
+      "webapp",
+      "registrationtoken"
+    ],
+    "codename": "delete_registrationtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view registration token",
+    "content_type": [
+      "webapp",
+      "registrationtoken"
+    ],
+    "codename": "view_registrationtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add category",
+    "content_type": [
+      "webapp",
+      "category"
+    ],
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change category",
+    "content_type": [
+      "webapp",
+      "category"
+    ],
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": [
+      "webapp",
+      "category"
+    ],
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view category",
+    "content_type": [
+      "webapp",
+      "category"
+    ],
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add product_photo",
+    "content_type": [
+      "webapp",
+      "product_photo"
+    ],
+    "codename": "add_product_photo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change product_photo",
+    "content_type": [
+      "webapp",
+      "product_photo"
+    ],
+    "codename": "change_product_photo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete product_photo",
+    "content_type": [
+      "webapp",
+      "product_photo"
+    ],
+    "codename": "delete_product_photo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view product_photo",
+    "content_type": [
+      "webapp",
+      "product_photo"
+    ],
+    "codename": "view_product_photo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add order",
+    "content_type": [
+      "webapp",
+      "order"
+    ],
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change order",
+    "content_type": [
+      "webapp",
+      "order"
+    ],
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": [
+      "webapp",
+      "order"
+    ],
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view order",
+    "content_type": [
+      "webapp",
+      "order"
+    ],
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add product",
+    "content_type": [
+      "webapp",
+      "product"
+    ],
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change product",
+    "content_type": [
+      "webapp",
+      "product"
+    ],
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": [
+      "webapp",
+      "product"
+    ],
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view product",
+    "content_type": [
+      "webapp",
+      "product"
+    ],
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$a8iNxeted6JD$zG++0zoCj7x9P3XfvsDFGdV8N+4BO1Kx8jsSfMeEvc0=",
+    "last_login": "2019-04-05T16:17:53.399Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-04-04T13:28:24.670Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$ESltS6fznY7D$28arPhYkYJWQAm+btOzJ9eDTf88aaqrmLuD9N3skhSo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "belek",
+    "first_name": "",
+    "last_name": "",
+    "email": "belektolubaev@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-04-05T16:24:35.120Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "webapp.order",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "belek"
+    ],
+    "phone": "775190095",
+    "address": "\u0414\u043e\u0440\u0434\u043e\u0439",
+    "comment": "",
+    "created_at": "2019-04-06T06:26:46.429Z",
+    "products": [
+      1,
+      3,
+      4
+    ]
+  }
+}
+]
