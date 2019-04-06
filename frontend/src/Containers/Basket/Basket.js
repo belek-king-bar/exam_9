@@ -6,21 +6,23 @@ class Basket extends Component {
 
 
     render() {
-        console.log(this.props.product);
-        return this.props.basket.product.map(product => {
-            return <Fragment>
+        const {name, price, count} = this.props.basket;
+        console.log(this.props.basket.product);
+        return <Fragment>
                 <ListGroup>
                     <ListGroupItem className='bg-dark text-warning mb-2'>
-                        <span>{product.name}</span>
-                        <span> {product.price} сом</span>
+                        <span>{name}</span>
+                        <p>Цена: {price} сом</p>
+                        <p>Количество: {count}</p>
                     </ListGroupItem>
                 </ListGroup>
             </Fragment>
-        })
     }
 }
 
-const mapStateToProps = (state) => state.basket;
+const mapStateToProps = (state) => ({
+    basket: state.basket
+});
 
 
 const mapDispatchToProps = (dispatch) => ({});
