@@ -38,7 +38,7 @@ class SoftDeleteManager(models.Manager):
 class Product(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(max_length=2000, null=True, blank=True)
-    arrival_date = models.DateTimeField()
+    arrival_date = models.DateTimeField(verbose_name="Время создания")
     is_deleted = models.BooleanField(default=False)
     categories = models.ManyToManyField('Category', related_name="product", blank=True, verbose_name="Категория")
     price = models.DecimalField(max_digits=10, decimal_places=2)

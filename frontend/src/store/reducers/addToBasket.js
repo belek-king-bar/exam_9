@@ -3,7 +3,7 @@ import {PRODUCT_ADD_STATE} from "../actions/addToBasket";
 
 
 const initialState = {
-    product: {}
+    product: []
 };
 
 const productAddBasketReducer = (state = initialState, action) => {

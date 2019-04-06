@@ -5,8 +5,7 @@ import {connect} from "react-redux";
 import ProductCategories from '../../Components/ProductCategories/ProductCategories.js'
 import {Button} from 'reactstrap'
 import {addToBasket} from "../../store/actions/addToBasket";
-import {Row, Col} from "reactstrap"
-import Slider from "react-slick";
+import {Row} from "reactstrap"
 
 
 class ProductDetail extends Component {
@@ -16,28 +15,21 @@ class ProductDetail extends Component {
 
     render() {
 
-        let settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        };
 
         if (!this.props.productDetail.product) return null;
 
         const {name, description, arrival_date, categories, id, images} = this.props.productDetail.product;
-        console.log(categories);
+        console.log(arrival_date);
         const {is_admin, username} = this.props.auth;
 
         return <div className="mb-4">
-            <Slider {...settings}>
-                {images ? images.map(image =>
-                    <div className="mr-5 mb-3 text-center">
-                        <img className="img-fluid rounded" src={image.images} style={{width: 300, height: 200}}/>
-                    </div>
-                ) : null}
-            </Slider>
+                <Row>
+                    {images ? images.map(image =>
+                        <div className="mr-5 mb-3 text-center">
+                            <img className="img-fluid rounded" src={image.images} style={{width: 300, height: 200}}/>
+                        </div>
+                    ) : null}
+                </Row>
 
             <h1>{name}</h1>
 
