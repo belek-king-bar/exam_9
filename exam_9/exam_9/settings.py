@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',
     'rest_framework',
+    'rest_framework.authtoken',
+    'corsheaders',
     'api_v1',
     'webapp'
 ]
@@ -126,3 +127,23 @@ STATIC_URL = '/static/'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    )
+}
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+MEDIA_URL = '/uploads/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_DEFAULT_FROM = "admin@exam.app"
+HOST_URL = "http://localhost:3000"
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '9642cdaa19ab9d'
+EMAIL_HOST_PASSWORD = 'b7102bb27fc99a'
+EMAIL_PORT = '2525'
+
+# срок действия токена регистрации
+TOKEN_EXPIRATION_HOURS = 72
