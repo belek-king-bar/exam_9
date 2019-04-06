@@ -1,8 +1,8 @@
 from django.conf import settings
-from webapp.models import Product, RegistrationToken, Category, Order
+from webapp.models import Product, RegistrationToken, Category, Order, Product_photo
 from rest_framework import viewsets
 from api_v1.serializers import ProductSerializer, UserSerializer, RegistrationTokenSerializer, UserRegisterSerializer, \
-    AuthTokenSerializer, CategorySerializer, OrderSerializer
+    AuthTokenSerializer, CategorySerializer, OrderSerializer, Product_photoSerializer
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.generics import CreateAPIView, GenericAPIView
 from django.contrib.auth.models import User
@@ -74,6 +74,9 @@ class OrderViewSet(BaseViewSet):
     queryset = Order.objects.all()
     serializer_class = OrderSerializer
 
+class Product_photoViewSet(BaseViewSet):
+    queryset = Product_photo.objects.all()
+    serializer_class = Product_photoSerializer
 
 class UserCreateView(CreateAPIView):
     model = User

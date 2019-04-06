@@ -1,9 +1,19 @@
 from rest_framework.exceptions import ValidationError
-from webapp.models import Product, RegistrationToken, Category, Order
+from webapp.models import Product, RegistrationToken, Category, Order, Product_photo
 from rest_framework import serializers
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
+
+class InlineImagesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Product_photo
+        fields = ('id', 'images')
+
+class InlineCategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = ('id', 'name')
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -16,23 +26,28 @@ class CategorySerializer(serializers.ModelSerializer):
 
 class ProductSerializer(serializers.ModelSerializer):
     url = serializers.HyperlinkedIdentityField(view_name='api_v1:product-detail')
+    images = InlineImagesSerializer(many=True, read_only=True)
+    categories = InlineCategorySerializer(many=True, read_only=True)
 
     class Meta:
         model = Product
-        fields = ('url', 'id', 'name', 'description', 'arrival_date', 'categories', 'price')
+        fields = ('url', 'id', 'name', 'description', 'arrival_date', 'categories', 'price', 'images')
+
+class Product_photoSerializer(serializers.ModelSerializer):
+    url = serializers.HyperlinkedIdentityField(view_name='api_v1:product_photo-detail')
+
+    class Meta:
+        model = Product_photo
+        fields = ('url', 'id', 'product', 'images')
 
 
 class OrderSerializer(serializers.ModelSerializer):
     url = serializers.HyperlinkedIdentityField(view_name='api_v1:order-detail')
-    product_url = serializers.HyperlinkedRelatedField(view_name='api_v1:product-detail', source='product', read_only=True)
-    product_name = serializers.SerializerMethodField(read_only=True, source='product')
 
-    def get_product_name(self, order):
-        return order.product.name
 
     class Meta:
-        model = Product
-        fields = ('url', 'id', 'user', 'product_url', 'product_name', 'phone', 'address', 'comment', 'created_at')
+        model = Order
+        fields = ('url', 'id', 'user', 'products', 'phone', 'address', 'comment', 'created_at')
 
 
 
