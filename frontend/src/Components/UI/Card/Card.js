@@ -12,7 +12,8 @@ const Card = props => {
     const {is_admin} = props.auth;
 
     return <div className={"card mt-3 text-center text-sm-left " + (props.className ? props.className : "")}>
-        {props.image ? <img className="card-img-top" src={props.image}/> : null}
+        {props.image ? <img className="card-img-top" src={props.image.images} style={{height: 200}}/> :
+        <img className="card-img-top" src="https://zabavnik.club/wp-content/uploads/Kartinka_15_26040235.jpg" style={{height: 200}}/>}
         {props.header || props.text || props.link ? <div className="card-body">
             {props.header ? <h5 className="card-title">{props.header}</h5> : null}
             {props.text ? <p className="card-text">{props.text}</p> : null}
