@@ -23,8 +23,9 @@ class Menu extends Component {
             <div className={(this.state.collapse ? "collapse" : "") + " navbar-collapse"}
                  id="navbarNav">
                 <ul className="navbar-nav">
-                    <MenuItem to="/">Фильмы</MenuItem>
-                    {is_admin ? <MenuItem to="/movies/add">Добавить фильм</MenuItem> : null}
+                    <MenuItem to="/">Меню</MenuItem>
+                    {is_admin ? <MenuItem to="/products/add">Добавить блюдо</MenuItem> : null}
+                    {username ? <MenuItem to="/basket">Корзина</MenuItem> : null}
                 </ul>
                 <ul className="navbar-nav ml-auto">
                     {username ? [
